@@ -7,6 +7,14 @@ module ListingIndexService::Search::DatabaseSearchHelper
       {count: count, listings: listings.map { |l| ListingIndexService::Search::Converters.listing_hash(l, includes) }})
   end
 
+  def success_result(count, listings, includes, distances = {})
+    converted_listings = listings.map do |listing|
+      distance_hash = distances[listing.id] || {}
+      ListingIndexService::Search::Converters.listing_hash(listing, includes, distance_hash)
+    end
+    Result::Success.new({count: count, listings: converted_listings})
+  end
+
   def fetch_from_db(community_id:, search:, included_models:, includes:)
     where_opts = HashUtils.compact(
       {
