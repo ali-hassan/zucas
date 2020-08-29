@@ -9,7 +9,7 @@ class Admin::Communities::FooterService
 
   def plan_footer_disabled?
     if plan
-      !plan[:features][:footer] ? true : nil
+      plan[:features][:footer] ? true : nil
     else
       true
     end

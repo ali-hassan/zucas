@@ -8,8 +8,10 @@ class FooterPresenter < MemoisticPresenter
   end
 
   def display?
-    plan && !!plan[:features][:footer] &&
-      community.footer_enabled
+    # plan[:features][:footer] = true
+    true
+    # plan && !!plan[:features][:footer] &&
+    #   community.footer_enabled
   end
 
   def links?
