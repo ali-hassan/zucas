@@ -156,31 +156,31 @@ module CustomLandingPage
       "id": "three_column_info_with_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Three column info with icons and buttons",
+      "title": "Your one-stop equipment rental marketplace",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
-          "title": "Column 1",
+          "title": "Rent equipment ...",
           "icon": "quill",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.",
-          "button_title": "Go to sharetribe.com",
-          "button_path": {"value": "https://www.sharetribe.com"}
+          "paragraph": "Renting equipment on Equiprr is simple! Search listings by keyword, and filter by zip code or city. Find equipment to rent, select the rental dates, and checkout. Pay securely with a credit card via Stripe credit card processing. <b> Click the button below to view current listings.</b>",
+          "button_title": "Browse Listings",
+          "button_path": {"value": "https://www.equiprr.com/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
-          "title": "Column 2",
+          "title": "List equipment ...",
           "icon": "piggy-bank",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.",
-          "button_title": "Go to sharetribe.com",
-          "button_path": {"value": "https://www.sharetribe.com"}
+          "paragraph": "Generate extra income by renting tools and trailers out to others. For each listing, specify the security deposit amount, days the equipment is available, and the daily rental rate. Post, manage, and delete listings. Get paid automatically after rental is complete. To get started renting out your products, click the button below.",
+          "button_title": "Post Listing",
+          "button_path": {"value": "https://www.equiprr.com/en/listings/new?gaid=2"}
         },
         {
-          "title": "Column 3",
+          "title": "All from the same account",
           "icon": "globe-1",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.",
-          "button_title": "Go to sharetribe.com",
-          "button_path": {"value": "https://www.sharetribe.com"}
+          "paragraph": "Create a single account to both rent and list equipment, and to be notified when new listings are posted. Stripe processes all transactions via credit card, and manages the automatic payout of rental fees into your account when the transaction is complete. Create an account to get started.",
+          "button_title": "Create Account",
+          "button_path": {"value": "https://www.equiprr.com/en/signup?gaid=2"}
         }
       ]
     },
@@ -276,8 +276,8 @@ module CustomLandingPage
     {
         "id": "listings",
         "kind": "listings",
-        "title": "Featured listings section",
-        "paragraph": "PLEASE NOTE: This section is NOT ENABLED by default. To enable this section, replace listing IDs with real IDs and add the section to the 'composition'. This section contains 3 featured listings",
+        "title": "Current Listings",
+        "paragraph": "Check out some of our listings or search to see additional listings. Have equipment you'd like to list? Sign up and begin posting listings today!",
         "button_color": {"type": "marketplace_data", "id": "primary_color"},
         "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
         "button_title": "Browse all listings",
@@ -288,13 +288,13 @@ module CustomLandingPage
         "author_name_color_hover": {"type": "marketplace_data", "id": "primary_color"},
         "listings": [
             {
-                "listing": { "type": "listing", "id": 99999 }
+                "listing": { "type": "listing", "id": 3 }
             },
             {
-                "listing": { "type": "listing", "id": 99999 }
+                "listing": { "type": "listing", "id": 3 }
             },
             {
-                "listing": { "type": "listing", "id": 99999 }
+                "listing": { "type": "listing", "id": 3 }
             }
         ]
     },
@@ -356,17 +356,11 @@ module CustomLandingPage
 
   "composition": [
     { "section": {"type": "sections", "id": "hero"}},
-    { "section": {"type": "sections", "id": "markdown_support"}},
-    { "section": {"type": "sections", "id": "single_info_without_background_and_cta"}},
-    { "section": {"type": "sections", "id": "single_info_without_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
-    { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
-    { "section": {"type": "sections", "id": "two_column_info_without_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
-    { "section": {"type": "sections", "id": "three_column_info_without_icons_and_buttons"}},
-    { "section": {"type": "sections", "id": "video"}},
+    { "section": {"type": "sections", "id": "listings"}},
+    { "section": {"type": "sections", "id": "two_column_info_without_icons_and_buttons_with_sigle_button"}},
+    { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
+    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
 

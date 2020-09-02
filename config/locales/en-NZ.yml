@@ -1192,7 +1192,7 @@ en-NZ:
         learn_more: ~
   common:
     edit_page: "Edit page"
-    default_community_slogan: "Community marketplace"
+    default_community_slogan: "Vail's Peer-to-Peer Tool Rental Marketplace"
     default_community_description: "This is a place to sell, rent, swap and share goods and services with the other members of the marketplace."
     cancel: Cancel
     fields_that_are_mandatory: "Fields marked with star (*) are mandatory."
