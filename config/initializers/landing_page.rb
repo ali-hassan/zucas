@@ -57,8 +57,8 @@ module CustomLandingPage
       "id": "single_info_without_background_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Single column info section without background image and call to action button",
-      "paragraph": "This is a single column info section without background image and call to action button."
+      "title": "Sign up today to be notified when new products are added!",
+      "paragraph": "Create an account and get regular emails with the new listings that are added."
     },
     {
       "id": "markdown_support",
@@ -79,12 +79,12 @@ module CustomLandingPage
       "id": "single_info_with_background_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Single column info section with background image and call to action button",
-      "paragraph": "This is a single column info section with background image and call to action button.",
+      "title": "Still have questions?",
+      "paragraph": "Have more questions, please reach out and we'll get back with you as quickly as possible. We look forward to having you join Equiprr.",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
-      "button_title": "Go to sharetribe.com",
-      "button_path": {"value": "https://www.sharetribe.com"},
+      "button_title": "Contact us",
+      "button_path": {"value": "https://www.equiprr.com/user_feedbacks/new?gaid=6"},
       "background_image": {"type": "assets", "id": "default_hero_background"},
       "background_image_variation": "dark"
     },
@@ -92,12 +92,12 @@ module CustomLandingPage
       "id": "single_info_with_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Single column info section with call to action button",
-      "paragraph": "This is a single column info section with call to action button.",
+      "title": "Sign up today to be notified when new products are added!",
+      "paragraph": "Create an account and get regular emails with the new listings that are added.",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
-      "button_title": "Contact us",
-      "button_path": {"type": "path", "id": "contact_us"}
+      "button_title": "Sign Up",
+      "button_path": {"value": "https://www.equiprr.com/en/signup?gaid=5", "id": "sign_up"}
     },
     {
       "id": "single_info_with_background_color_and_cta",
@@ -115,17 +115,17 @@ module CustomLandingPage
       "id": "two_column_info_with_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Two column info section with icons and buttons",
+      "title": "Wanted Items",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
           "icon": "grape",
-          "title": "Column 1",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.\\n\\nParagraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.",
-          "button_title": "Go to sharetribe.com",
-          "button_path": {"value": "https://www.sharetribe.com"}
+          "title": "Don't find what you're looking for?",
+          "paragraph": "Let us know what you need and when you need it and we'll do our best to find what you're looking for. Requesting equipment is not an obligation to rent it. When it's listed, you decide if it fits your schedule and budget needs. Submit your request today!",
+          "button_title": "Request Item(s)",
+          "button_path": {"value": "https://www.equiprr.com/en/user_feedbacks/new?gaid=4"}
         },
         {
           "icon": "watering-can",
@@ -358,8 +358,8 @@ module CustomLandingPage
     { "section": {"type": "sections", "id": "hero"}},
     { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "listings"}},
-    { "section": {"type": "sections", "id": "two_column_info_without_icons_and_buttons_with_sigle_button"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
+    { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
+    { "section": {"type": "sections", "id": "single_info_with_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
