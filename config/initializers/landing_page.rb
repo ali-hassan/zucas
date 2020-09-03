@@ -85,7 +85,7 @@ module CustomLandingPage
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "button_title": "Contact us",
       "button_path": {"value": "https://www.equiprr.com/user_feedbacks/new?gaid=6"},
-      "background_image": {"type": "assets", "id": "default_hero_background"},
+      "background_image": {"type": "assets", "id": "background_hero_img"},
       "background_image_variation": "dark"
     },
     {
@@ -129,10 +129,10 @@ module CustomLandingPage
         },
         {
           "icon": "watering-can",
-          "title": "Column 2",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel.",
-          "button_title": "Go to sharetribe.com",
-          "button_path": {"value": "https://www.sharetribe.com"}
+          "title": "Have any of the wanted items? ",
+          "paragraph": "Check out the current list of wanted items to see if you have tools others are looking for. If you know of anyone who has these tools, invite them to join Equiprr using the 'Invite new members' link at the top of the page.",
+          "button_title": "View Wanted Items",
+          "button_path": {"value": "https://www.equiprr.com/pages/content/wanted?gaid=4"}
         }
       ]
     },
@@ -365,7 +365,8 @@ module CustomLandingPage
   ],
 
   "assets": [
-    { "id": "default_hero_background", "src": "default_hero_background.jpg", "content_type": "image/jpeg" }
+    { "id": "default_hero_background", "src": "default_hero_background.jpg", "content_type": "image/jpeg" },
+    { "id": "background_hero_img", "src": "background_hero_img.jpg", "content_type": "image/jpeg" }
   ]
 }
 JSON
