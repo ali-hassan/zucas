@@ -328,29 +328,13 @@ module CustomLandingPage
     {
       "id": "footer",
       "kind": "footer",
-      "theme": "dark",
+      "theme": "light",
       "social_media_icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "social_media_icon_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
-      "links": [
-        {"label": "About", "href": {"type": "path", "id": "about"}},
-        {"label": "Contact us", "href": {"type": "path", "id": "contact_us"}},
-        {"label": "How to use?", "href": {"type": "path", "id": "how_to_use"}},
-        {"label": "Terms", "href": {"type": "path", "id": "terms"}},
-        {"label": "Privary", "href": {"type": "path", "id": "privacy"}},
-        {"label": "Invite new members", "href": {"type": "path", "id": "new_invitation"}},
-        {"label": "Sharetribe", "href": {"value": "https://www.sharetribe.com"}}
-      ],
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/Sharetribe/"},
-        {"service": "twitter", "url": "https://twitter.com/sharetribe"},
-        {"service": "instagram", "url": "https://www.instagram.com/"},
-        {"service": "youtube", "url": "https://www.youtube.com/channel/UCtefWVq2uu4pHXaIsHlBFnw"},
-        {"service": "googleplus", "url": "https://plus.google.com/114869130265262677354/"},
-        {"service": "linkedin", "url": "https://www.linkedin.com/company/2626583"},
-        {"service": "pinterest", "url": "https://www.pinterest.com/"},
-        {"service": "soundcloud", "url": "https://soundcloud.com/"}
+        {"service": "facebook", "url": "https://www.facebook.com/equiprr"}
       ],
-      "copyright": "Copyright Marketplace Ltd 2016"
+      "copyright": "Equiprr © 2020"
     }
   ],
 
@@ -360,7 +344,8 @@ module CustomLandingPage
     { "section": {"type": "sections", "id": "listings"}},
     { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "single_info_with_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}}
+    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
+    { "section": {"type": "sections", "id": "footer"}}
   ],
 
   "assets": [
