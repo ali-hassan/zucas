@@ -360,8 +360,7 @@ module CustomLandingPage
     { "section": {"type": "sections", "id": "listings"}},
     { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "single_info_with_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
-    { "section": {"type": "sections", "id": "footer"}}
+    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}}
   ],
 
   "assets": [
