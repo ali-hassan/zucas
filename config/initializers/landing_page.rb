@@ -163,8 +163,8 @@ module CustomLandingPage
       "columns": [
         {
           "title": "Rent equipment ...",
-          "icon": "quill",
-          "paragraph": "Renting equipment on Equiprr is simple! Search listings by keyword, and filter by zip code or city. Find equipment to rent, select the rental dates, and checkout. Pay securely with a credit card via Stripe credit card processing. <b> Click the button below to view current listings.</b>",
+          "icon": "single-man-search",
+          "paragraph": "Renting equipment on Equiprr is simple! Search listings by keyword, and filter by zip code or city. Find equipment to rent, select the rental dates, and checkout. Pay securely with a credit card via Stripe credit card processing. Click the button below to view current listings.",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://www.equiprr.com/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
