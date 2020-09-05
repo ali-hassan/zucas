@@ -1192,10 +1192,8 @@ en:
         learn_more: "Learn more."
   common:
     edit_page: "Edit page"
-    default_community_slogan: "Vail's Peer-to-Peer Tool Rental Marketplace"
-    default_community_description: "Rent tools peer-to-peer and save big!
-                                    List tools for extra income.
-                                    Sign up to get started!"
+    default_community_slogan: "Community marketplace"
+    default_community_description: "Find Fair Trade and organic goods from Brazilian suppliers"
     cancel: Cancel
     fields_that_are_mandatory: "Fields marked with star (*) are mandatory."
     or: or
