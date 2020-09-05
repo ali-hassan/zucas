@@ -103,12 +103,12 @@ module CustomLandingPage
       "id": "single_info_with_background_color_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Single column info section with background color and call to action button",
-      "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Nulla vitae elit libero.",
+      "title": "Don't find what you're looking for?",
+      "paragraph": "Let us know what you need and when you need it and we'll do our best to find what you're looking for. Requesting equipment is not an obligation to rent it. When it's listed, you decide if it fits your schedule and budget needs. Submit your request today!",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
-      "button_title": "About",
-      "button_path": {"type": "path", "id" :"about"},
+      "button_title": "Request Item(s)",
+      "button_path": {"value": "https://www.equiprr.com/en/user_feedbacks/new?gaid=4"},
       "background_color": [166, 76, 94]
     },
     {
@@ -342,7 +342,7 @@ module CustomLandingPage
     { "section": {"type": "sections", "id": "hero"}},
     { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "listings"}},
-    { "section": {"type": "sections", "id": "two_column_info_with_icons_and_buttons"}},
+    { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
     { "section": {"type": "sections", "id": "footer"}}
