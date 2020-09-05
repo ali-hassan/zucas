@@ -58,7 +58,7 @@ module CustomLandingPage
       "kind": "info",
       "variation": "single_column",
       "title": "Don't find what you're looking for?",
-      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities.",
+      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities."
     },
     {
       "id": "markdown_support",
