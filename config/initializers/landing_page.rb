@@ -57,8 +57,8 @@ module CustomLandingPage
       "id": "single_info_without_background_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Sign up today to be notified when new products are added!",
-      "paragraph": "Create an account and get regular emails with the new listings that are added."
+      "title": "Don't find what you're looking for?",
+      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities.",
     },
     {
       "id": "markdown_support",
@@ -93,18 +93,18 @@ module CustomLandingPage
       "kind": "info",
       "variation": "single_column",
       "title": "Sign up today to be notified when new products are added!",
-      "paragraph": "Create an account and get regular emails with the new listings that are added.",
+      "paragraph": "Are there any specific product you would like to find here on Zucas?",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "button_title": "Sign Up",
-      "button_path": {"value": "https://www.equiprr.com/en/signup?gaid=5", "id": "sign_up"}
+      "button_path": {"value": "http://18.158.136.51/en/signup?gaid=5", "id": "sign_up"}
     },
     {
       "id": "single_info_with_background_color_and_cta",
       "kind": "info",
       "variation": "single_column",
       "title": "Don't find what you're looking for?",
-      "paragraph": "Let us know what you need and when you need it and we'll do our best to find what you're looking for. Requesting equipment is not an obligation to rent it. When it's listed, you decide if it fits your schedule and budget needs. Submit your request today!",
+      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities.",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "button_title": "Request Item(s)",
@@ -188,19 +188,19 @@ module CustomLandingPage
       "id": "three_column_info_without_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Three column info without icons and buttons",
+      "title": "Company Vision",
       "columns": [
         {
-          "title": "Column 1",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel."
+          "title": "Mission",
+          "paragraph": "To empower artisans and small producers, through access to the international market. Providing opportunities for professional development, education, growing their business, and having a better income from their online sales."
         },
         {
-          "title": "Column 2",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel."
+          "title": "Vision",
+          "paragraph": "we envision to become the biggest (B2B) marketplace for handicraft and fair trade goods globally, supplying the global market and helping to reduce poverty and inequality rates, promoting a more fair commercial relationship between developed and underdeveloped countries."
         },
         {
-          "title": "Column 3",
-          "paragraph": "Paragraph. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel."
+          "title": "Values",
+          "paragraph": "Reducing inequality through business opportunities an education, promoting and increasing awareness on the fair trade principles."
         }
       ]
     },
@@ -288,13 +288,13 @@ module CustomLandingPage
         "author_name_color_hover": {"type": "marketplace_data", "id": "primary_color"},
         "listings": [
             {
-                "listing": { "type": "listing", "id": 3 }
+                "listing": { "type": "listing", "id": 1 }
             },
             {
-                "listing": { "type": "listing", "id": 3 }
+                "listing": { "type": "listing", "id": 1 }
             },
             {
-                "listing": { "type": "listing", "id": 3 }
+                "listing": { "type": "listing", "id": 1 }
             }
         ]
     },
@@ -332,7 +332,7 @@ module CustomLandingPage
       "social_media_icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "social_media_icon_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/equiprr"}
+        {"service": "facebook", "url": "https://www.facebook.com/zucas"}
       ],
       "copyright": "Equiprr © 2020"
     }
@@ -340,11 +340,10 @@ module CustomLandingPage
 
   "composition": [
     { "section": {"type": "sections", "id": "hero"}},
-    { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
+    { "section": {"type": "sections", "id": "three_column_info_without_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "listings"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_color_and_cta"}},
+    { "section": {"type": "sections", "id": "single_info_without_background_and_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_cta"}},
-    { "section": {"type": "sections", "id": "single_info_with_background_and_cta"}},
     { "section": {"type": "sections", "id": "footer"}}
   ],
 
