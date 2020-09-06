@@ -97,7 +97,7 @@ module CustomLandingPage
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "button_title": "Sign Up",
-      "button_path": {"value": "http://18.158.136.51/en/signup?gaid=5", "id": "sign_up"}
+      "button_path": {"value": "https://zucas.nl/en/signup?gaid=5", "id": "sign_up"}
     },
     {
       "id": "single_info_with_background_color_and_cta",
