@@ -162,25 +162,25 @@ module CustomLandingPage
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
-          "title": "Rent equipment ...",
+          "title": "Know our partners",
           "icon": "single-man-search",
-          "paragraph": "Renting equipment on Equiprr is simple! Search listings by keyword, and filter by zip code or city. Find equipment to rent, select the rental dates, and checkout. Pay securely with a credit card via Stripe credit card processing. Click the button below to view current listings.",
+          "paragraph": "We are engaged on making the consumption habits more responsible and environmental friendly. All the artisans work with only natural and organic materials.",
           "button_title": "Browse Listings",
-          "button_path": {"value": "https://www.equiprr.com/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
+          "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
-          "title": "List equipment ...",
+          "title": "How payments work (link to the pricing page)",
           "icon": "piggy-bank",
-          "paragraph": "Generate extra income by renting tools and trailers out to others. For each listing, specify the security deposit amount, days the equipment is available, and the daily rental rate. Post, manage, and delete listings. Get paid automatically after rental is complete. To get started renting out your products, click the button below.",
+          "paragraph": "Online payments made easier and safer. We use Stripe to guarantee the safety of your payments.",
           "button_title": "Post Listing",
-          "button_path": {"value": "https://www.equiprr.com/en/listings/new?gaid=2"}
+          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"}
         },
         {
-          "title": "All from the same account",
+          "title": "Educational Programmes  (link to donation page)",
           "icon": "globe-1",
-          "paragraph": "Create a single account to both rent and list equipment, and to be notified when new listings are posted. Stripe processes all transactions via credit card, and manages the automatic payout of rental fees into your account when the transaction is complete. Create an account to get started.",
+          "paragraph": "2% of the revenue from each transaction goes to educational purposes in Brazil. We have partnerships with NGOs and other organizations fomenting the financial and entrepreneurial education for disadvantaged communities.",
           "button_title": "Create Account",
-          "button_path": {"value": "https://www.equiprr.com/en/signup?gaid=2"}
+          "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
       ]
     },
@@ -188,7 +188,7 @@ module CustomLandingPage
       "id": "three_column_info_without_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Company Vision",
+      "title": "Our Mission",
       "columns": [
         {
           "title": "Mission",
@@ -341,6 +341,7 @@ module CustomLandingPage
   "composition": [
     { "section": {"type": "sections", "id": "hero"}},
     { "section": {"type": "sections", "id": "three_column_info_without_icons_and_buttons"}},
+    { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "listings"}},
     { "section": {"type": "sections", "id": "single_info_without_background_and_cta"}},
     { "section": {"type": "sections", "id": "single_info_with_cta"}},
