@@ -163,21 +163,21 @@ module CustomLandingPage
       "columns": [
         {
           "title": "Know our partners",
-          "icon": "single-man-search",
+          "icon": "Eco-globo-1",
           "paragraph": "We are engaged on making the consumption habits more responsible and environmental friendly. All the artisans work with only natural and organic materials.",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
           "title": "How payments work (link to the pricing page)",
-          "icon": "piggy-bank",
+          "icon": "location-pin-dir-1",
           "paragraph": "Online payments made easier and safer. We use Stripe to guarantee the safety of your payments.",
           "button_title": "Post Listing",
           "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"}
         },
         {
           "title": "Educational Programmes  (link to donation page)",
-          "icon": "globe-1",
+          "icon": "business-trade",
           "paragraph": "2% of the revenue from each transaction goes to educational purposes in Brazil. We have partnerships with NGOs and other organizations fomenting the financial and entrepreneurial education for disadvantaged communities.",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
