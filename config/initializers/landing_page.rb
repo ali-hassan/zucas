@@ -185,10 +185,14 @@ module CustomLandingPage
       ]
     },
     {
-      "id": "three_column_info_without_icons_and_buttons",
+      "id": "three_column_info_without_icons",
       "kind": "info",
       "variation": "multi_column",
       "title": "Our Mission",
+      "kind": "info",
+      "button_color": {"type": "marketplace_data", "id": "primary_color"},
+      "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
+      "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
           "title": "Mission",
@@ -349,7 +353,7 @@ module CustomLandingPage
 
   "composition": [
     { "section": {"type": "sections", "id": "hero"}},
-    { "section": {"type": "sections", "id": "three_column_info_without_icons_and_buttons"}},
+    { "section": {"type": "sections", "id": "three_column_info_without_icons"}},
     { "section": {"type": "sections", "id": "three_column_info_with_icons_and_buttons"}},
     { "section": {"type": "sections", "id": "listings"}},
     { "section": {"type": "sections", "id": "single_info_without_background_and_cta"}},
