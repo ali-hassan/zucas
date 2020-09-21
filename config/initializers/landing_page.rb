@@ -164,21 +164,21 @@ module CustomLandingPage
         {
           "title": "Know our partners",
           "icon": "Eco-globo-1",
+          "button_title": "Browse Listings"
+          "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="},
           "paragraph": "We are engaged on making the consumption habits more responsible and environmental friendly. All the artisans work with only natural and organic materials.",
-          "button_title": "Browse Listings",
-          "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
           "title": "How payments work (link to the pricing page)",
           "icon": "location-pin-dir-1",
+          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
           "paragraph": "Online payments made easier and safer. We use Stripe to guarantee the safety of your payments.",
-          "button_title": "Post Listing",
-          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"}
+          "button_title": "Post Listing"
         },
         {
           "title": "Educational Programmes  (link to donation page)",
-          "icon": "business-trade",
           "paragraph": "2% of the revenue from each transaction goes to educational purposes in Brazil. We have partnerships with NGOs and other organizations fomenting the financial and entrepreneurial education for disadvantaged communities.",
+          "icon": "business-trade",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
@@ -192,14 +192,23 @@ module CustomLandingPage
       "columns": [
         {
           "title": "Mission",
-          "paragraph": "To empower artisans and small producers, through access to the international market. Providing opportunities for professional development, education, growing their business, and having a better income from their online sales."
+          "paragraph": "To empower artisans and small producers, through access to the international market. Providing opportunities for professional development, education, growing their business, and having a better income from their online sales.",
+          "icon": "Eco-globo-1",
+          "button_title": "Browse Listings",
+          "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
           "title": "Vision",
+          "icon": "location-pin-dir-1",
+          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
+          "button_title": "Browse Listings",
           "paragraph": "we envision to become the biggest (B2B) marketplace for handicraft and fair trade goods globally, supplying the global market and helping to reduce poverty and inequality rates, promoting a more fair commercial relationship between developed and underdeveloped countries."
         },
         {
           "title": "Values",
+          "icon": "shopping-basket-search",
+          "button_title": "Create Account",
+          "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
           "paragraph": "Reducing inequality through business opportunities an education, promoting and increasing awareness on the fair trade principles."
         }
       ]
