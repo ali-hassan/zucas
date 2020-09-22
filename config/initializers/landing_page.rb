@@ -188,7 +188,7 @@ module CustomLandingPage
       "id": "three_column_info_without_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Our Mission",
+      "title": "Who we are",
       "kind": "info",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
@@ -197,13 +197,13 @@ module CustomLandingPage
         {
           "title": "Mission",
           "paragraph": "To empower artisans and small producers, through access to the international market. Providing opportunities for professional development, education, growing their business, and having a better income from their online sales.",
-          "icon": "account-group-5",
+          "icon": "account-group-2",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
           "title": "Vision",
-          "icon": "account-group-2",
+          "icon": "account-group-5",
           "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
           "button_title": "Browse Listings",
           "paragraph": "we envision to become the biggest (B2B) marketplace for handicraft and fair trade goods globally, supplying the global market and helping to reduce poverty and inequality rates, promoting a more fair commercial relationship between developed and underdeveloped countries."
