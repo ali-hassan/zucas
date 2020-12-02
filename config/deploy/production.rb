@@ -1,9 +1,9 @@
 set :stage, :production
 ask :branch, :master
 
-server 'ubuntu@18.158.136.51', user: 'ubuntu', roles: %w{web app db}, my_property: :my_value
+server 'ubuntu@3.7.139.187', user: 'ubuntu', roles: %w{web app db}, my_property: :my_value
 
-server '18.158.136.51',
+server '3.7.139.187',
        user: 'ubuntu',
        roles: %w{web app db},
        ssh_options: {

@@ -2,13 +2,13 @@
 lock "~> 3.11.0"
 
 set :repo_url,        'git@github.com:ali-hassan/zucas.git'
-set :application,     'zucas'
+set :application,     'RoomzAway'
 set :user,            'ubuntu'
 set :puma_threads,    [4, 16]
 set :puma_workers,    3
 
 # Don't change these unless you know what you're doing
-
+set :rvm_ruby_version, 'ruby-2.6.5@RoomzAway'
 set :pty,             true
 # set :use_sudo,        false
 # set :deploy_via,      :remote_cache
