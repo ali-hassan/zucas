@@ -156,7 +156,7 @@ module CustomLandingPage
       "id": "three_column_info_with_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Your one-stop equipment rental marketplace",
+      "title": "Browse fair trade products from South American Suppliers in different locations",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
