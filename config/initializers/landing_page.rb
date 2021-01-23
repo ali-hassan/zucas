@@ -347,7 +347,7 @@ module CustomLandingPage
       "social": [
         {"service": "facebook", "url": "https://www.facebook.com/zucas"}
       ],
-      "copyright": "KvK: 74523058 BTW: NL002501926B28 contact: hello@zucas.n"
+      "copyright": "KvK: 74523058 BTW: NL002501926B28 contact: hello@zucas.nl"
     }
   ],
 
