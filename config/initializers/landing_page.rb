@@ -210,7 +210,7 @@ module CustomLandingPage
         },
         {
           "title": "Values",
-          "icon": "eco-globo-1",
+          "icon": "business-trade",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
           "paragraph": "Work to achieve a fairer world, with less inequality and more opportunities to small and medium entrepreneurs globally."
