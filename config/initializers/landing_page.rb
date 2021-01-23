@@ -92,19 +92,19 @@ module CustomLandingPage
       "id": "single_info_with_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Sign up today to be notified when new products are added!",
+      "title": "Check our blog and read our latest news on sustainability and marketplaces",
       "paragraph": "Are there any specific product you would like to find here on Zucas?",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
-      "button_title": "Sign Up",
-      "button_path": {"value": "https://zucas.nl/en/signup?gaid=5", "id": "sign_up"}
+      "button_title": "BLOG ZUCAS",
+      "button_path": {"value": "http://zucas.io/blog-zucas", "id": "sign_up"}
     },
     {
       "id": "single_info_with_background_color_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Don't find what you're looking for?",
-      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities.",
+      "title": "Would you like to find a different product?",
+      "paragraph": "Get in contact with us and we will check within our supplier’s network which options are available.",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "button_title": "Request Item(s)",
@@ -162,23 +162,23 @@ module CustomLandingPage
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
-          "title": "We are sustainable",
-          "icon": "shopping-basket-search",
+          "title": "1. We are sustainable",
+          "icon": "1",
           "button_title": "CERTIFICATES",
           "button_path": {"value": "http://zucas.io/certificates"},
           "paragraph": "Our suppliers work with only natural or certified materials."
         },
         {
-          "title": "Do everything online",
-          "icon": "account-group-5",
+          "title": "2. Do everything online",
+          "icon": "",
           "button_path": {"value": "http://zucas.io/sustainable-marketplace/faq"},
           "paragraph": "Product research, communication and safe payments all via our platform.",
           "button_title": "READ OUR FAQ"
         },
         {
-          "title": "We are a Social Enterprise",
+          "title": "3. We are a Social Enterprise",
           "paragraph": "1% of the revenue from each transaction is donated to educational purposes in Brazil.",
-          "icon": "business-trade",
+          "icon": "",
           "button_title": "CREATE ACCOUNT",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
@@ -347,7 +347,7 @@ module CustomLandingPage
       "social": [
         {"service": "facebook", "url": "https://www.facebook.com/zucas"}
       ],
-      "copyright": "Equiprr © 2020"
+      "copyright": "KvK: 74523058 BTW: NL002501926B28 contact: hello@zucas.n"
     }
   ],
 
