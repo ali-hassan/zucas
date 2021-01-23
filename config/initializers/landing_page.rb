@@ -57,8 +57,8 @@ module CustomLandingPage
       "id": "single_info_without_background_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Don't find what you're looking for?",
-      "paragraph": "Zucas emerged from the idea of helping to fight unemployment and poverty through business opportunities."
+      "title": "Would you like to find a different product?",
+      "paragraph": "Get in contact with us and we will check within our supplier’s network which options are available."
     },
     {
       "id": "markdown_support",
@@ -162,24 +162,24 @@ module CustomLandingPage
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
-          "title": "Know our partners",
+          "title": "We are sustainable",
           "icon": "shopping-basket-search",
-          "button_title": "Browse Listings",
-          "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="},
-          "paragraph": "We are engaged on making the consumption habits more responsible and environmental friendly. All the artisans work with only natural and organic materials."
+          "button_title": "CERTIFICATES",
+          "button_path": {"value": "http://zucas.io/certificates"},
+          "paragraph": "Our suppliers work with only natural or certified materials."
         },
         {
-          "title": "How payments work (link to the pricing page)",
+          "title": "Do everything online",
           "icon": "account-group-5",
-          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
-          "paragraph": "Online payments made easier and safer. We use Stripe to guarantee the safety of your payments.",
-          "button_title": "Post Listing"
+          "button_path": {"value": "http://zucas.io/sustainable-marketplace/faq"},
+          "paragraph": "Product research, communication and safe payments all via our platform.",
+          "button_title": "READ OUR FAQ"
         },
         {
-          "title": "Educational Programmes  (link to donation page)",
-          "paragraph": "2% of the revenue from each transaction goes to educational purposes in Brazil. We have partnerships with NGOs and other organizations fomenting the financial and entrepreneurial education for disadvantaged communities.",
+          "title": "We are a Social Enterprise",
+          "paragraph": "1% of the revenue from each transaction is donated to educational purposes in Brazil.",
           "icon": "business-trade",
-          "button_title": "Create Account",
+          "button_title": "CREATE ACCOUNT",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
       ]
@@ -196,7 +196,7 @@ module CustomLandingPage
       "columns": [
         {
           "title": "Mission",
-          "paragraph": "To empower artisans and small producers, through access to the international market. Providing opportunities for professional development, education, growing their business, and having a better income from their online sales.",
+          "paragraph": "To connect and empower entrepreneurs, through access to the international market. Providing better business opportunities and better revenue from their online sales.",
           "icon": "account-group-2",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
@@ -206,14 +206,14 @@ module CustomLandingPage
           "icon": "account-group-5",
           "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
           "button_title": "Browse Listings",
-          "paragraph": "we envision to become the biggest (B2B) marketplace for handicraft and fair trade goods globally, supplying the global market and helping to reduce poverty and inequality rates, promoting a more fair commercial relationship between developed and underdeveloped countries."
+          "paragraph": "To become the biggest (B2B) marketplace for sustainable and fair trade goods globally, supplying the global market and helping to reduce poverty rates through business opportunities."
         },
         {
           "title": "Values",
-          "icon": "shopping-basket-search",
+          "icon": "eco-globo-1",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
-          "paragraph": "Reducing inequality through business opportunities an education, promoting and increasing awareness on the fair trade principles."
+          "paragraph": "Work to achieve a fairer world, with less inequality and more opportunities to small and medium entrepreneurs globally."
         }
       ]
     },
@@ -289,8 +289,8 @@ module CustomLandingPage
     {
         "id": "listings",
         "kind": "listings",
-        "title": "Current Listings",
-        "paragraph": "Check out some of our listings or search to see additional listings. Have equipment you'd like to list? Sign up and begin posting listings today!",
+        "title": "Popular Categories",
+        "paragraph": "Want to check the products listed in those categories? Apply for a sign up.",
         "button_color": {"type": "marketplace_data", "id": "primary_color"},
         "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
         "button_title": "Browse all listings",
