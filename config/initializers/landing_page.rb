@@ -203,14 +203,14 @@ module CustomLandingPage
         },
         {
           "title": "Vision",
-          "icon": "business-deal-handshake",
+          "icon": "business-trade",
           "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
           "button_title": "Browse Listings",
           "paragraph": "To become the biggest (B2B) marketplace for sustainable and fair trade goods globally, supplying the global market and helping to reduce poverty rates through business opportunities."
         },
         {
           "title": "Values",
-          "icon": "business-trade",
+          "icon": "business-deal-handshake",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
           "paragraph": "Work to achieve a fairer world, with less inequality and more opportunities to small and medium entrepreneurs globally."
