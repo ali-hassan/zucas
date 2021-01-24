@@ -57,7 +57,7 @@ module CustomLandingPage
       "id": "single_info_without_background_and_cta",
       "kind": "info",
       "variation": "single_column",
-      "title": "Would you like to find a different product?",
+      "title": "All of our suppliers are carefully selected based on sustainability, economic and social responsibility.",
       "paragraph": "Get in contact with us and we will check within our supplier’s network which options are available."
     },
     {
@@ -345,7 +345,9 @@ module CustomLandingPage
       "social_media_icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "social_media_icon_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "social": [
-        {"service": "facebook", "url": "https://www.facebook.com/zucas"}
+        {"service": "facebook", "url": "https://www.facebook.com/zucas"},
+        {"service": "instagram", "url": "https://www.instagram.com/wearezucas"},
+        {"service": "linkedin", "url": "https://www.linkedin.com/company/35602936"}
       ],
       "copyright": "KvK: 74523058 BTW: NL002501926B28 contact: hello@zucas.nl"
     }
