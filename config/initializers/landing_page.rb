@@ -197,7 +197,7 @@ module CustomLandingPage
         {
           "title": "Mission",
           "paragraph": "To connect and empower entrepreneurs, through access to the international market. Providing better business opportunities and better revenue from their online sales.",
-          "icon": "business-deal-cash",
+          "icon": "account-group-2",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
@@ -210,7 +210,7 @@ module CustomLandingPage
         },
         {
           "title": "Values",
-          "icon": "business-deal-handshake-circle",
+          "icon": "business-trade",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
           "paragraph": "Work to achieve a fairer world, with less inequality and more opportunities to small and medium entrepreneurs globally."
