@@ -58,7 +58,7 @@ module CustomLandingPage
       "kind": "info",
       "variation": "single_column",
       "title": "All of our suppliers are carefully selected based on sustainability, economic and social responsibility.",
-      "paragraph": "Get in contact with us and we will check within our supplier’s network which options are available."
+      "paragraph": "JOIN US AND BE PART OF A CHANGE"
     },
     {
       "id": "markdown_support",
@@ -163,14 +163,14 @@ module CustomLandingPage
       "columns": [
         {
           "title": "1. We are sustainable",
-          "icon": "1",
+          "icon": "ecology-leaf-settings",
           "button_title": "CERTIFICATES",
           "button_path": {"value": "http://zucas.io/certificates"},
           "paragraph": "Our suppliers work with only natural or certified materials."
         },
         {
           "title": "2. Do everything online",
-          "icon": "",
+          "icon": "optimization-timer",
           "button_path": {"value": "http://zucas.io/sustainable-marketplace/faq"},
           "paragraph": "Product research, communication and safe payments all via our platform.",
           "button_title": "READ OUR FAQ"
@@ -178,7 +178,7 @@ module CustomLandingPage
         {
           "title": "3. We are a Social Enterprise",
           "paragraph": "1% of the revenue from each transaction is donated to educational purposes in Brazil.",
-          "icon": "",
+          "icon": "user-network",
           "button_title": "CREATE ACCOUNT",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
@@ -197,20 +197,20 @@ module CustomLandingPage
         {
           "title": "Mission",
           "paragraph": "To connect and empower entrepreneurs, through access to the international market. Providing better business opportunities and better revenue from their online sales.",
-          "icon": "account-group-2",
+          "icon": "business-deal-cash",
           "button_title": "Browse Listings",
           "button_path": {"value": "https://zucas.nl/s?gaid=2&q=&lq=&ls=&lc=&boundingbox=&distance_max="}
         },
         {
           "title": "Vision",
-          "icon": "account-group-5",
+          "icon": "business-deal-handshake",
           "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
           "button_title": "Browse Listings",
           "paragraph": "To become the biggest (B2B) marketplace for sustainable and fair trade goods globally, supplying the global market and helping to reduce poverty rates through business opportunities."
         },
         {
           "title": "Values",
-          "icon": "business-trade",
+          "icon": "business-deal-handshake-circle",
           "button_title": "Create Account",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"},
           "paragraph": "Work to achieve a fairer world, with less inequality and more opportunities to small and medium entrepreneurs globally."
