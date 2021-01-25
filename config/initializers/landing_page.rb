@@ -163,14 +163,14 @@ module CustomLandingPage
       "columns": [
         {
           "title": "1. We are sustainable",
-          "icon": "ecology-globe-hand",
+          "icon": "ecology-human-mind",
           "button_title": "CERTIFICATES",
           "button_path": {"value": "http://zucas.io/certificates"},
           "paragraph": "Our suppliers use only natural, recycled or certified materials."
         },
         {
           "title": "2. Do everything online",
-          "icon": "ecology-human-mind",
+          "icon": "shopping-basket-search",
           "button_path": {"value": "http://zucas.io/sustainable-marketplace/faq"},
           "paragraph": "Product research, communication and safe payments all via our platform.",
           "button_title": "READ OUR FAQ"
@@ -178,7 +178,7 @@ module CustomLandingPage
         {
           "title": "3. We are a Social Enterprise",
           "paragraph": "1% of the revenue is donated to educational purposes in Brazil.",
-          "icon": "shopping-basket-search",
+          "icon": "ecology-globe-hand",
           "button_title": "CREATE ACCOUNT",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
