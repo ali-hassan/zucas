@@ -163,7 +163,7 @@ module CustomLandingPage
       "columns": [
         {
           "title": "1. We are sustainable",
-          "icon": "wedding-money-piggy",
+          "icon": "ecology-globe-hand",
           "button_title": "CERTIFICATES",
           "button_path": {"value": "http://zucas.io/certificates"},
           "paragraph": "Our suppliers use only natural, recycled or certified materials."
