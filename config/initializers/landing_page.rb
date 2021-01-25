@@ -156,29 +156,29 @@ module CustomLandingPage
       "id": "three_column_info_with_icons_and_buttons",
       "kind": "info",
       "variation": "multi_column",
-      "title": "Browse fair trade products from South American Suppliers in different locations",
+      "title": "Reduce your business' footprints and help us to make a difference",
       "button_color": {"type": "marketplace_data", "id": "primary_color"},
       "button_color_hover": {"type": "marketplace_data", "id": "primary_color_darken"},
       "icon_color": {"type": "marketplace_data", "id": "primary_color"},
       "columns": [
         {
           "title": "1. We are sustainable",
-          "icon": "ecology-leaf-settings",
+          "icon": "wedding-money-piggy",
           "button_title": "CERTIFICATES",
           "button_path": {"value": "http://zucas.io/certificates"},
-          "paragraph": "Our suppliers work with only natural or certified materials."
+          "paragraph": "Our suppliers use only natural, recycled or certified materials."
         },
         {
           "title": "2. Do everything online",
-          "icon": "optimization-timer",
+          "icon": "ecology-human-mind",
           "button_path": {"value": "http://zucas.io/sustainable-marketplace/faq"},
           "paragraph": "Product research, communication and safe payments all via our platform.",
           "button_title": "READ OUR FAQ"
         },
         {
           "title": "3. We are a Social Enterprise",
-          "paragraph": "1% of the revenue from each transaction is donated to educational purposes in Brazil.",
-          "icon": "user-network",
+          "paragraph": "1% of the revenue is donated to educational purposes in Brazil.",
+          "icon": "shopping-basket-search",
           "button_title": "CREATE ACCOUNT",
           "button_path": {"value": "https://zucas.nl/en/signup?gaid=2"}
         }
@@ -204,8 +204,8 @@ module CustomLandingPage
         {
           "title": "Vision",
           "icon": "business-trade",
-          "button_path": {"value": "https://zucas.nl/en/listings/new?gaid=2"},
-          "button_title": "Browse Listings",
+          "button_path": {"value": "zucas.io/entre-em-contato"},
+          "button_title": "Contact Us",
           "paragraph": "To become the biggest (B2B) marketplace for sustainable and fair trade goods globally, supplying the global market and helping to reduce poverty rates through business opportunities."
         },
         {
