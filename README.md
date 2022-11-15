@@ -9,23 +9,6 @@ To launch your marketplace in minutes without touching code or worrying about ho
 If you're looking for a customizable and extendable marketplace solution. Flex is an API-based marketplace solution designed with a developers-first mindset. It allows you to develop your marketplace with the programming language of your choice, build a mobile app, design a customized transaction flow, and easily integrate third party services.
 
 
-### Contents
-
-- [Technology stack](#technology-stack)
-- [Installation](#installation)
-- [Payments](#payments)
-- [Custom Landing Page](#custom-landing-page)
-- [Versioning](#versioning)
-- [Changes](#changes)
-- [Upgrade](#upgrade)
-- [Contribute](#contribute)
-- [Release](#release)
-- [Translation](#translation)
-- [Bug tracker](#bug-tracker)
-- [Documentation](#documentation)
-- [Community forum](#community-forum)
-- [License](#license)
-
 ## Technology stack
 
 - Ruby 2.6
